@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "name": "lab-express",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

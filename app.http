@@ -1,0 +1,14 @@
+GET http://localhost:1234
+
+### Send login
+POST http://localhost:1234/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+### GET info
+GET http://localhost:1234/info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGVjayI6dHJ1ZSwiaWF0IjoxNzExMDIyMDQxLCJleHAiOjE3MTEwMjU2NDF9.-GnMcrIrHjDYlSDzHjwZyC41OJrXTmNnSc0S4kaNGgs
